@@ -40,11 +40,10 @@ To help you get started we have provided you with a scaffolding wrapper service 
 ## Instructions to run
 
 `$ npm install`
+
 `$ npm start fake`
 
-n.b. This starts up with a stub image classifier service. Omit the `fake` parameter to point to a real instance of our example [image classifier API](https://github.com/LJBirch/Backend-Test/tree/main)
-
-You can upload an image to the service you just started. e.g.
+You can upload an image to the express service you just started. e.g.
  
 `$ curl -vv -F "image_file=@./tests/dog.jpg" http://localhost:3000/image`
 
@@ -52,13 +51,15 @@ You can also run tests via
 
 `$ npm test`
 
+n.b. `$ npm start fake` starts up with a stub image classifier service. Just in case you're interested, you can also omit the `fake` parameter to point to a real instance of our example [image classifier API](https://github.com/LJBirch/Backend-Test/tree/main). To get this running you'd have to clone and follow the instructions in [the linked repo](ttps://github.com/LJBirch/Backend-Test/tree/main). But for the purposes of the exercise you can save yourself some time by using the stub.
+
 ## Evaluation criteria
 
 We'd like to either pair with you on this task or review it together with you after you complete.
 
 * Ability to articulate decisions and tradeoffs during code review
 * Code quality
-* How well it meets any requirements
+* Completeness
 * Testing 
 * Security implementation & awareness
 

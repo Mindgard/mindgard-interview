@@ -74,7 +74,7 @@ We'd like to either pair with you on this task or review it together with you af
 
 ## Additional information
 
-Unless you work for us, your work is your own J We kindly ask you to not share the code publicly before the recruitment project is concluded. Once the process is completed, you’re free to open source this work and share it publicly / as part of your portfolio. 
+Unless you work for us, your work is your own. We kindly ask you to not share the code publicly before the recruitment project is concluded. Once the process is completed, you’re free to open source this work and share it publicly / as part of your portfolio. 
 
 ## Time Limit 
 
